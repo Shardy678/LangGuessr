@@ -1,7 +1,7 @@
-import franc from "franc";
-import langs from 'langs';
-import colors from "colors";
-
+import pkg from "langs";
+const langs = pkg;
+import { franc } from "franc";
+import colors from 'colors';
 const input = process.argv[2];
 const langCode = franc(input);
 
